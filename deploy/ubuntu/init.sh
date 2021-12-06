@@ -27,4 +27,4 @@ cp prometheus $GOPATH/bin/prometheus
 # ./prometheus --config.file="deploy/config/config.yml"
 
 
-echo "export PATH=$PATH:$HOME/.cargo/bin:$ONOMY_HOME/bin" >> $HOME/.bashrc
+echo "export PATH=$PATH" >> ~/.bashrc

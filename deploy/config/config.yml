@@ -9,4 +9,4 @@ rule_files:
 scrape_configs:
   - job_name: onomy-testnet2-val1
     static_configs:
-      - targets: ['144.126.222.34:9090']
+      - targets: ['144.126.222.34:9100']
