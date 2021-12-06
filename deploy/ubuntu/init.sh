@@ -22,6 +22,7 @@ PROMETHEUS_DIR=$GOPATH/src/github.com/prometheus
 git clone https://github.com/sunnyk56/prometheus.git $PROMETHEUS_DIR
 cd $PROMETHEUS_DIR
 make build
+cp prometheus $GOPATH/bin/prometheus
 
 # ./prometheus --config.file="deploy/config/config.yml"
 
