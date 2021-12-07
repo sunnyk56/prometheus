@@ -3,7 +3,7 @@ global:
   evaluation_interval: 15s
 
 rule_files:
- - "deploy/config/rules.yaml"
+ - "rules.yaml"
 # - "second.rules"
 
 scrape_configs:
