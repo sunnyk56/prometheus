@@ -3,7 +3,7 @@ global:
   evaluation_interval: 15s
 
 rule_files:
- - "deploy/config/instanceDown.rules.yml"
+ - "deploy/config/instanceDown.rules.yaml"
 # - "second.rules"
 
 scrape_configs:
